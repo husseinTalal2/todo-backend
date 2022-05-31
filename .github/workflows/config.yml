@@ -20,7 +20,7 @@ steps:
     - run: yarn install --frozen-lockfile
     - run: yarn run build --if-present
     - run: yarn test
-    deploy: ## <-- this is the new stuff
+  deploy: ## <-- this is the new stuff
     needs: build
     runs-on: ubuntu-latest
     steps:
