@@ -30,4 +30,4 @@ steps:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: onboarding-todo-backend
         heroku_email: hossientalal2@gmail.com
-        remote_branch: master
+        remote_branch: main
